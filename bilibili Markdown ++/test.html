@@ -1,0 +1,44 @@
+<div>
+  <div>
+    <input type="button" value="上传markdown文案预览">
+    <input type="button" value="预览">
+    <textarea name="1" id="preViewMd" cols="1" rows="1"></textarea>
+  </div>
+</div>
+<style></style>
+
+javascript:void(function(){document.open();document.write("
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' class='view'>
+
+<head>
+  <style type='text/css'>
+    .view {
+      padding: 0;
+      word-wrap: break-word;
+      cursor: text;
+      height: 90%;
+    }
+
+    body {
+      font-size: 14px;
+    }
+
+    img {
+      vertical-align: top;
+      outline-width: 0px;
+    }
+
+    p {
+      margin: 5px 0;
+    }
+  </style>
+  <link rel='stylesheet' type='text/css'
+    href='//s1.hdslb.com/bfs/static/article-text/static/ueditor/themes/iframe.css?v=1673169526678' />
+</head>
+
+<body class='view'></body>
+<script type='text/javascript' id='_initialScript'>setTimeout(function () { editor = window.parent.UE.instants['ueditorInstant0']; editor._setup(document); }, 0); var _tmpScript = document.getElementById('_initialScript'); _tmpScript.parentNode.removeChild(_tmpScript);
+</script>
+
+</html>");document.close();}())
