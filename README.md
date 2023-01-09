@@ -1,4 +1,4 @@
-# Markdown++ -一次编写，到处发表
+# Markdown++ ，一次编写，到处发表
 ## bilibili Markdown 扩展  
 小破站专栏居然没有支持markdown语法，所以开启了这个项目  
 ### 用前必看
